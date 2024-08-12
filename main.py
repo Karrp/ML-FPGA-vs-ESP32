@@ -7,7 +7,7 @@
 
 # boot_btn = Pin(0, Pin.IN, Pin.PULL_UP)
 
-print("main.py start") # main is running, but not printing
+# print("main.py start") # main is running, but not printing
 
 # while boot_btn.value() == 1 :
 #     led[0] = (1,1,1)    # LED on
@@ -19,6 +19,6 @@ print("main.py start") # main is running, but not printing
 
 # exec(open("main.py").read())
 
-led.value(1) # turn off LED
+led.value(1) # turn LED off
 
 # exec(open("main.py").read())
