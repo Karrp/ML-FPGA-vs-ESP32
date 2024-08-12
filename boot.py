@@ -7,7 +7,7 @@
     #webrepl.start()
 
 from machine import Pin, reset
-import sys
+from sys import modules
 
 led = Pin(21, Pin.OUT)
     # led.value(0) - LED on
@@ -18,5 +18,5 @@ btn = Pin(0, Pin.IN, Pin.PULL_UP)
 
 def reload(mod): # reload module
     mod_name = mod.__name__
-    del sys.modules[mod_name]
+    del modules[mod_name]
     return __import__(mod_name)
