@@ -157,3 +157,18 @@ def print_result(result):
 
 
 # exec(open("measure.py").read())
+
+def qstr_read(full:bool=False) -> bytearray:
+    ba = bytearray()    # to store REPL output/input # clear bytearray
+    dupterm(DUP(ba))    # start reading from REPL
+
+    if full:
+        qstr_info(True)
+    else:
+        qstr_info()     # printing function that want to be stored
+
+    dupterm(None)       # stop reading from REPL
+    return ba           # overwriting ba
+
+
+# exec(open("measure.py").read())
