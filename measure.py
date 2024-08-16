@@ -145,4 +145,15 @@ def print_result(result):
 # ---------------------------- Is it needed? ^ ----------------------------
 
 
+
+# additional functions
+# https://docs.micropython.org/en/latest/library/micropython.html#functions
+# import micropython
+# micropython.mem_info() or (True)  # heap info and map
+    # Each letter represents a single block of memory, and each block is 16 bytes.
+    # So each line of the heap dump represents 0x400 bytes or 1k of memory.
+# micropython.qstr_info() or (True) # variables defined
+# micropython.stack_use()           # stack used - integer
+
+
 # exec(open("measure.py").read())
