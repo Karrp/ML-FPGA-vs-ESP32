@@ -256,4 +256,31 @@ def srj(variable, space:int=8, sign:str=" ") -> str: # string right just
     s = str(variable)
     return sign*(space - len(s)) + s
 
+
+def execute_print(name:list[str], time_start:list[int], time_end:list[int], mem_start:list[int], mem_end:list[int], qstr_start:list[int], qstr_end:list[int], qstr_var_names_start:set[str], qstr_var_names_end:set[str], var_names:bool=False):
+
+    # prepare before values for differences calculartion
+    t_empty = ticks_diff( time_end[0], time_start[0] )
+    m_empty = mem_end[0] - mem_start[0]
+
+    # print calculations
+    print("")
+    print( "Element:        Time_us:  T_diff:     Mem:  M_diff:    Pool:    QSTR:   Str_B: Total_B:") # Descriptions
+        #   empty:            20425,       0,     592,       0,       0,       0,       0,       0
+
+    for i, el in enumerate(name):
+        t = ticks_diff( time_end[i], time_start[i] )
+        m = mem_end[i] - mem_start[i]
+        q = [qstr_end[i][j] - qstr_start[i][j] for j in range(len(qstr_end[i]))]
+
+        print("{}{},{},{},{},{},{},{},{}".format(slj(el+":",15), srj(t), srj(t - t_empty), srj(m), srj(m - m_empty), srj(q[0]), srj(q[1]), srj(q[2]), srj(q[3]) ) )
+
+    # print variables names added
+    if var_names:
+        print("")
+        print("Element:        Variables:")
+        for i, el in enumerate(name):
+            print("{}{}".format(slj(el+":",15), qstr_var_names_end[i] - qstr_var_names_start[i]))
+        
+
 # exec(open("measure.py").read())
