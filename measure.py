@@ -247,4 +247,13 @@ def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=No
 
     return name, time_start, time_end, mem_start, mem_end, qstr_start, qstr_end, qstr_var_names_start, qstr_var_names_end, var_names
 
+
+def slj(variable, space:int=8, sign:str=" ") -> str: # string left just
+    s = str(variable)
+    return  s + sign*(space - len(s))
+
+def srj(variable, space:int=8, sign:str=" ") -> str: # string right just
+    s = str(variable)
+    return sign*(space - len(s)) + s
+
 # exec(open("measure.py").read())
