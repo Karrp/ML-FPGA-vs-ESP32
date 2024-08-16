@@ -13,6 +13,9 @@ def help():
     print("avilable_ram(<>)\t- shows available ram <short=False>")
 
 
+exec(open("del_len.py").read())
+
+
 # just 9 minutes with microsecond resolution
 # 6 days with millisecond resolution
 
@@ -182,5 +185,66 @@ def qstr_val(b:bytearray) -> tuple[list[int], set[str]]:
     
     return l, v
 
+
+def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=None):
+    # preparation
+    # exec(open("del_len.py").read()) # possibly check if running on restarted device
+    collect()
+    print("")
+    
+    ext = ".py" # file extension
+
+    length = len(name)
+
+    time_start = [0]*length     # time start
+    time_end = [0]*length     # time end
+    mem_start = [0]*length     # memory start
+    mem_end = [0]*length     # memory end
+    qstr_start = [bytearray()]*length   # qstr_info at start
+    qstr_end = [bytearray()]*length   # qstr_info at end
+    qstr_var_names_start = [set()]*length        # qstr_info variables at start
+    qstr_var_names_end = [set()]*length        # qstr_info variables at end
+
+    collect()
+
+    # test all files by executing / importing them (time, memory, qstr_info)
+    for i, el in enumerate(name):
+        
+        if not command: # == None
+                # file location and name
+            s = path + el + ext # for exec
+            s_read = open(s).read()
+        else:
+            s_read = command[i]
+        
+        # si = path.replace("/", ".") + el # for import
+
+        print(el,"before:")
+        qstr_start[i] = qstr_read(var_names)
+
+        collect()
+        mem_start[i] = mem_alloc()
+        time_start[i] = ticks_us()
+
+            # execute file
+        exec(s_read)
+            # import file
+            # # import is creating path strings in qstr "path.module" and "path/module.py"
+        # __import__(si, globals(), locals(), [], 0)
+
+        time_end[i] = ticks_us()
+        # collect()
+        mem_end[i] = mem_alloc()
+
+        print(el,"after:")
+        qstr_end[i] = qstr_read(var_names)
+
+    # split qstr to values and variables
+    for i, el in enumerate(qstr_start):
+        qstr_start[i], qstr_var_names_start[i] = qstr_val(el)
+    for i, el in enumerate(qstr_end):
+        qstr_end[i], qstr_var_names_end[i] = qstr_val(el)
+
+    return name, time_start, time_end, mem_start, mem_end, qstr_start, qstr_end, qstr_var_names_start, qstr_var_names_end, var_names
 
 # exec(open("measure.py").read())
