@@ -171,4 +171,16 @@ def qstr_read(full:bool=False) -> bytearray:
     return ba           # overwriting ba
 
 
+def qstr_val(b:bytearray) -> tuple[list[int], set[str]]:
+    s = b.decode() # to string
+    v = set(s.splitlines()[1:]) # save variables names
+    s = s.splitlines()[0] # cut first line when qstr_info(True)
+    # s = s.split(':')[1] # not needed
+
+    l = s.split(', ')
+    l[:] = [int(e.split('=')[1]) for e in l] # extract values and convert to int
+    
+    return l, v
+
+
 # exec(open("measure.py").read())
