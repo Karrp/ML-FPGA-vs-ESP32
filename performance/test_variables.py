@@ -16,6 +16,7 @@ def test():
 
     path = "" # "performance/var_const/" # directory
     var_names = False
+    heap_map = False
 
     # global / local variables
     glob = dict(name = "g", pre = "")
@@ -54,7 +55,7 @@ def test():
             print("command:\n", command)
 
             # perform test and save results
-            results.append( execute("", list(name), var_names, list(command)) )
+            results.append( execute("", list(name), var_names, heap_map, list(command)) )
     
     # print results
     for el in results:

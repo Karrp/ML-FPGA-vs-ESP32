@@ -186,7 +186,7 @@ def qstr_val(b:bytearray) -> tuple[list[int], set[str]]:
     return l, v
 
 
-def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=None):
+def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False, command:list[str]=None):
     # preparation
     # exec(open("del_len.py").read()) # possibly check if running on restarted device
     collect()
@@ -205,6 +205,17 @@ def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=No
     qstr_var_names_start = [set()]*length        # qstr_info variables at start
     qstr_var_names_end = [set()]*length        # qstr_info variables at end
 
+    # strings for frame (fr)
+    # d^-^b ["---> start"/"<--- stop"], <name>, <function>, ["before"/"after"]
+    fr_sign = "d^-^b" # start of the frame
+    fr_start = "---> start"
+    fr_stop = "<--- stop"
+    fr_qstr = "qstr_info"
+    fr_mem = "mem_info"
+    fr_before = "before"
+    fr_after = "after"
+    
+
     collect()
 
     # test all files by executing / importing them (time, memory, qstr_info)
@@ -219,10 +230,18 @@ def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=No
         
         # si = path.replace("/", ".") + el # for import
 
-        print(el,"before:")
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_before))
         qstr_start[i] = qstr_read(var_names)
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_before))
 
         collect()
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_mem, fr_before))
+        if heap_map:
+            mem_info(True)
+        else:
+            mem_info()
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_mem, fr_before))
+
         mem_start[i] = mem_alloc()
         time_start[i] = ticks_us()
 
@@ -236,8 +255,16 @@ def execute(path:str, name:list[str], var_names:bool=False, command:list[str]=No
         # collect()
         mem_end[i] = mem_alloc()
 
-        print(el,"after:")
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_mem, fr_after))
+        if heap_map:
+            mem_info(True)
+        else:
+            mem_info()
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_mem, fr_after))
+
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_after))
         qstr_end[i] = qstr_read(var_names)
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_after))
 
     # split qstr to values and variables
     for i, el in enumerate(qstr_start):
