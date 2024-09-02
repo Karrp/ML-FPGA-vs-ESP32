@@ -1,7 +1,7 @@
 
 def qstr_val(s:str) -> tuple[list[int], set[str]]:
     # s = b.decode() # to string
-    variables_names = set(s.splitlines()[1:]) # save variables names
+    variables_names = set((s.replace(")\n", "")).split("Q(")[1:]) # save variables names
     s = s.splitlines()[0] # cut first line when qstr_info(True)
     # s = s.split(':')[1] # not needed
 
