@@ -200,10 +200,6 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
     time_end = [0]*length     # time end
     mem_start = [0]*length     # memory start
     mem_end = [0]*length     # memory end
-    qstr_start = [bytearray()]*length   # qstr_info at start
-    qstr_end = [bytearray()]*length   # qstr_info at end
-    qstr_var_names_start = [set()]*length        # qstr_info variables at start
-    qstr_var_names_end = [set()]*length        # qstr_info variables at end
 
     # strings for frame (fr)
     # d^-^b ["---> start"/"<--- stop"], <name>, <function>, ["before"/"after"]
@@ -231,7 +227,10 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
         # si = path.replace("/", ".") + el # for import
 
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_before))
-        qstr_start[i] = qstr_read(var_names)
+        if var_names:
+            qstr_info(True)
+        else:
+            qstr_info()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_before))
 
         collect()
@@ -263,16 +262,14 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_mem, fr_after))
 
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_after))
-        qstr_end[i] = qstr_read(var_names)
+        if var_names:
+            qstr_info(True)
+        else:
+            qstr_info()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_after))
 
-    # split qstr to values and variables
-    for i, el in enumerate(qstr_start):
-        qstr_start[i], qstr_var_names_start[i] = qstr_val(el)
-    for i, el in enumerate(qstr_end):
-        qstr_end[i], qstr_var_names_end[i] = qstr_val(el)
 
-    return name, time_start, time_end, mem_start, mem_end, qstr_start, qstr_end, qstr_var_names_start, qstr_var_names_end, var_names
+    return name, time_start, time_end, mem_start, mem_end
 
 
 def slj(variable, space:int=8, sign:str=" ") -> str: # string left just
@@ -284,7 +281,7 @@ def srj(variable, space:int=8, sign:str=" ") -> str: # string right just
     return sign*(space - len(s)) + s
 
 
-def execute_print(name:list[str], time_start:list[int], time_end:list[int], mem_start:list[int], mem_end:list[int], qstr_start:list[int], qstr_end:list[int], qstr_var_names_start:set[str], qstr_var_names_end:set[str], var_names:bool=False):
+def execute_print(name:list[str], time_start:list[int], time_end:list[int], mem_start:list[int], mem_end:list[int]):
 
     # prepare before values for differences calculartion
     t_empty = ticks_diff( time_end[0], time_start[0] )
@@ -292,22 +289,15 @@ def execute_print(name:list[str], time_start:list[int], time_end:list[int], mem_
 
     # print calculations
     print("")
-    print( "Element:        Time_us:  T_diff:     Mem:  M_diff:    Pool:    QSTR:   Str_B: Total_B:") # Descriptions
-        #   empty:            20425,       0,     592,       0,       0,       0,       0,       0
+    print( "Element:        Time_us:  T_diff:     Mem:  M_diff:")
+        #   empty:            20425,       0,     592,       0
 
     for i, el in enumerate(name):
         t = ticks_diff( time_end[i], time_start[i] )
         m = mem_end[i] - mem_start[i]
-        q = [qstr_end[i][j] - qstr_start[i][j] for j in range(len(qstr_end[i]))]
 
-        print("{}{},{},{},{},{},{},{},{}".format(slj(el+":",15), srj(t), srj(t - t_empty), srj(m), srj(m - m_empty), srj(q[0]), srj(q[1]), srj(q[2]), srj(q[3]) ) )
+        print("{}{},{},{},{}".format(slj(el+":",15), srj(t), srj(t - t_empty), srj(m), srj(m - m_empty))) #, srj(q[0]), srj(q[1]), srj(q[2]), srj(q[3]) ) )
 
-    # print variables names added
-    if var_names:
-        print("")
-        print("Element:        Variables:")
-        for i, el in enumerate(name):
-            print("{}{}".format(slj(el+":",15), qstr_var_names_end[i] - qstr_var_names_start[i]))
         
 
 # exec(open("measure.py").read())
