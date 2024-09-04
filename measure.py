@@ -208,8 +208,10 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
     fr_stop = "<--- stop"
     fr_qstr = "qstr_info"
     fr_mem = "mem_info"
+    fr_t_m = "time_memory"
     fr_before = "before"
     fr_after = "after"
+    fr_effect = "effect"
     
 
     collect()
@@ -226,6 +228,7 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
         
         # si = path.replace("/", ".") + el # for import
 
+        # QSTR before
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_before))
         if var_names:
             qstr_info(True)
@@ -233,6 +236,7 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
             qstr_info()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_before))
 
+        # memory info (map) before
         collect()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_mem, fr_before))
         if heap_map:
@@ -254,6 +258,7 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
         # collect()
         mem_end[i] = mem_alloc()
 
+        # memory info (map) after
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_mem, fr_after))
         if heap_map:
             mem_info(True)
@@ -261,6 +266,7 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
             mem_info()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_mem, fr_after))
 
+        # QSTR after
         print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_qstr, fr_after))
         if var_names:
             qstr_info(True)
@@ -268,6 +274,10 @@ def execute(path:str, name:list[str], var_names:bool=False, heap_map:bool=False,
             qstr_info()
         print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_qstr, fr_after))
 
+        # memory and time
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_start, el, fr_t_m, fr_effect))
+        print(ticks_diff( time_end[i], time_start[i] ), mem_end[i] - mem_start[i])
+        print("{} {}, {}, {}, {}".format(fr_sign, fr_stop, el, fr_t_m, fr_effect))
 
     return name, time_start, time_end, mem_start, mem_end
 
@@ -289,6 +299,7 @@ def execute_print(name:list[str], time_start:list[int], time_end:list[int], mem_
 
     # print calculations
     print("")
+    
     print( "Element:        Time_us:  T_diff:     Mem:  M_diff:")
         #   empty:            20425,       0,     592,       0
 

@@ -1,0 +1,5669 @@
+name:
+ ['g_var_empty', 'g_var_2', 'g_var_3', 'g_var_4', 'g_var_5', 'g_var_6', 'g_var_7', 'g_var_8', 'g_var_9', 'g_var_10', 'g_var_11', 'g_var_12', 'g_var_13', 'g_var_14', 'g_var_15', 'g_var_16', 'g_var_17']
+command:
+ ['pass', 'ag = 1', 'ag2 = 1', 'ag23 = 1', 'ag234 = 1', 'ag2345 = 1', 'ag23456 = 1', 'ag234567 = 1', 'ag2345678 = 1', 'ag23456789 = 1', 'ag23456789a = 1', 'ag23456789ab = 1', 'ag23456789abc = 1', 'ag23456789abcd = 1', 'ag23456789abcde = 1', 'ag23456789abcdef = 1', 'ag23456789abcdef0 = 1']
+
+d^-^b ---> start, g_var_empty, qstr_info, before
+qstr pool: n_pool=3, n_qstr=117, n_str_data_bytes=836, n_total_bytes=1908
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_empty, qstr_info, before
+d^-^b ---> start, g_var_empty, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12912, free: 51088, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===S..h=======h==========Dh=BBB.B=h=.BBBB.h=h===========Bh==.B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_empty, mem_info, before
+d^-^b ---> start, g_var_empty, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13216, free: 50784, max new split: 8257536
+ No. of 1-blocks: 179, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===SShh=======h==========Dh=BBBhB=h=hBBBBhh=h===========Bh==hB=B
+00000c00: hh===h=hSh==h==S..Sh==...h===========B=DSh..BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_empty, mem_info, after
+d^-^b ---> start, g_var_empty, qstr_info, after
+qstr pool: n_pool=3, n_qstr=117, n_str_data_bytes=836, n_total_bytes=1908
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_empty, qstr_info, after
+d^-^b ---> start, g_var_empty, time_memory, effect
+576 112
+d^-^b <--- stop, g_var_empty, time_memory, effect
+d^-^b ---> start, g_var_2, qstr_info, before
+qstr pool: n_pool=3, n_qstr=117, n_str_data_bytes=836, n_total_bytes=1908
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_2, qstr_info, before
+d^-^b ---> start, g_var_2, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12912, free: 51088, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h===========Bh==.B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh.....h==Sh........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_2, mem_info, before
+d^-^b ---> start, g_var_2, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h===========Bh==BB=h
+00000c00: Sh===h=hSh==h==S......h=.h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh.....h==Sh........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_2, mem_info, after
+d^-^b ---> start, g_var_2, qstr_info, after
+qstr pool: n_pool=3, n_qstr=118, n_str_data_bytes=839, n_total_bytes=1911
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_2, qstr_info, after
+d^-^b ---> start, g_var_2, time_memory, effect
+793 128
+d^-^b <--- stop, g_var_2, time_memory, effect
+d^-^b ---> start, g_var_3, qstr_info, before
+qstr pool: n_pool=3, n_qstr=118, n_str_data_bytes=839, n_total_bytes=1911
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_3, qstr_info, before
+d^-^b ---> start, g_var_3, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12912, free: 51088, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h===========Bh==.B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_3, mem_info, before
+d^-^b ---> start, g_var_3, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h===========Bh==BB=h
+00000c00: Sh===h=hSh==h==S......h=.h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_3, mem_info, after
+d^-^b ---> start, g_var_3, qstr_info, after
+qstr pool: n_pool=3, n_qstr=119, n_str_data_bytes=843, n_total_bytes=1915
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_3, qstr_info, after
+d^-^b ---> start, g_var_3, time_memory, effect
+773 128
+d^-^b <--- stop, g_var_3, time_memory, effect
+d^-^b ---> start, g_var_4, qstr_info, before
+qstr pool: n_pool=3, n_qstr=119, n_str_data_bytes=843, n_total_bytes=1915
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_4, qstr_info, before
+d^-^b ---> start, g_var_4, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12912, free: 51088, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h===========Bh==.B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh....h==S.h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_4, mem_info, before
+d^-^b ---> start, g_var_4, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h===========Bh==BB=h
+00000c00: Sh===h=hSh==h==S......h=.h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hh....h==S.h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_4, mem_info, after
+d^-^b ---> start, g_var_4, qstr_info, after
+qstr pool: n_pool=3, n_qstr=120, n_str_data_bytes=848, n_total_bytes=1920
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_4, qstr_info, after
+d^-^b ---> start, g_var_4, time_memory, effect
+772 128
+d^-^b <--- stop, g_var_4, time_memory, effect
+d^-^b ---> start, g_var_5, qstr_info, before
+qstr pool: n_pool=3, n_qstr=120, n_str_data_bytes=848, n_total_bytes=1920
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_5, qstr_info, before
+d^-^b ---> start, g_var_5, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12912, free: 51088, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h===========Bh==.B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_5, mem_info, before
+d^-^b ---> start, g_var_5, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13280, free: 50720, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=S..hSh==....Bh==BB=.
+00000c00: .h===h=hSh==..........h=.h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_5, mem_info, after
+d^-^b ---> start, g_var_5, qstr_info, after
+qstr pool: n_pool=3, n_qstr=121, n_str_data_bytes=854, n_total_bytes=1926
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_5, qstr_info, after
+d^-^b ---> start, g_var_5, time_memory, effect
+816 176
+d^-^b <--- stop, g_var_5, time_memory, effect
+d^-^b ---> start, g_var_6, qstr_info, before
+qstr pool: n_pool=3, n_qstr=121, n_str_data_bytes=854, n_total_bytes=1926
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_6, qstr_info, before
+d^-^b ---> start, g_var_6, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12960, free: 51040, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh.......S.hh==.....hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_6, mem_info, before
+d^-^b ---> start, g_var_6, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13280, free: 50720, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh.......S.hh==.....hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_6, mem_info, after
+d^-^b ---> start, g_var_6, qstr_info, after
+qstr pool: n_pool=3, n_qstr=122, n_str_data_bytes=861, n_total_bytes=1933
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_6, qstr_info, after
+d^-^b ---> start, g_var_6, time_memory, effect
+771 128
+d^-^b <--- stop, g_var_6, time_memory, effect
+d^-^b ---> start, g_var_7, qstr_info, before
+qstr pool: n_pool=3, n_qstr=122, n_str_data_bytes=861, n_total_bytes=1933
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_7, qstr_info, before
+d^-^b ---> start, g_var_7, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12960, free: 51040, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh...h==S..h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ==.....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_7, mem_info, before
+d^-^b ---> start, g_var_7, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13296, free: 50704, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh...h==S..h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ===....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_7, mem_info, after
+d^-^b ---> start, g_var_7, qstr_info, after
+qstr pool: n_pool=3, n_qstr=123, n_str_data_bytes=869, n_total_bytes=1941
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_7, qstr_info, after
+d^-^b ---> start, g_var_7, time_memory, effect
+776 144
+d^-^b <--- stop, g_var_7, time_memory, effect
+d^-^b ---> start, g_var_8, qstr_info, before
+qstr pool: n_pool=3, n_qstr=123, n_str_data_bytes=869, n_total_bytes=1941
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_8, qstr_info, before
+d^-^b ---> start, g_var_8, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12976, free: 51024, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hhS........h...h==..hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ===....h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_8, mem_info, before
+d^-^b ---> start, g_var_8, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13312, free: 50688, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hhS........h...h==..hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ====...h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_8, mem_info, after
+d^-^b ---> start, g_var_8, qstr_info, after
+qstr pool: n_pool=3, n_qstr=124, n_str_data_bytes=878, n_total_bytes=1950
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_8, qstr_info, after
+d^-^b ---> start, g_var_8, time_memory, effect
+787 144
+d^-^b <--- stop, g_var_8, time_memory, effect
+d^-^b ---> start, g_var_9, qstr_info, before
+qstr pool: n_pool=3, n_qstr=124, n_str_data_bytes=878, n_total_bytes=1950
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_9, qstr_info, before
+d^-^b ---> start, g_var_9, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12992, free: 51008, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh....h==S.h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ====...h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_9, mem_info, before
+d^-^b ---> start, g_var_9, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13312, free: 50688, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh....h==S.h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ====...h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_9, mem_info, after
+d^-^b ---> start, g_var_9, qstr_info, after
+qstr pool: n_pool=3, n_qstr=125, n_str_data_bytes=888, n_total_bytes=1960
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_9, qstr_info, after
+d^-^b ---> start, g_var_9, time_memory, effect
+777 128
+d^-^b <--- stop, g_var_9, time_memory, effect
+d^-^b ---> start, g_var_10, qstr_info, before
+qstr pool: n_pool=3, n_qstr=125, n_str_data_bytes=888, n_total_bytes=1960
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_10, qstr_info, before
+d^-^b ---> start, g_var_10, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 12992, free: 51008, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh...S.....hh==.....hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ====...h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_10, mem_info, before
+d^-^b ---> start, g_var_10, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13328, free: 50672, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hh...S.....hh==.....hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =====..h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_10, mem_info, after
+d^-^b ---> start, g_var_10, qstr_info, after
+qstr pool: n_pool=3, n_qstr=126, n_str_data_bytes=899, n_total_bytes=1971
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_10, qstr_info, after
+d^-^b ---> start, g_var_10, time_memory, effect
+781 144
+d^-^b <--- stop, g_var_10, time_memory, effect
+d^-^b ---> start, g_var_11, qstr_info, before
+qstr pool: n_pool=3, n_qstr=126, n_str_data_bytes=899, n_total_bytes=1971
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_11, qstr_info, before
+d^-^b ---> start, g_var_11, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13008, free: 50992, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: =============.......Sh=======h==================h=======Sh......
+00001c00: ...hhS........h...h==..hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====...................h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =====..h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_11, mem_info, before
+d^-^b ---> start, g_var_11, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13408, free: 50592, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ....................Sh=======h==================h=======Sh......
+00001c00: ...hhS........h...h==..hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ======.h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_11, mem_info, after
+d^-^b ---> start, g_var_11, qstr_info, after
+qstr pool: n_pool=3, n_qstr=127, n_str_data_bytes=911, n_total_bytes=1983
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_11, qstr_info, after
+d^-^b ---> start, g_var_11, time_memory, effect
+836 208
+d^-^b <--- stop, g_var_11, time_memory, effect
+d^-^b ---> start, g_var_12, qstr_info, before
+qstr pool: n_pool=3, n_qstr=127, n_str_data_bytes=911, n_total_bytes=1983
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_12, qstr_info, before
+d^-^b ---> start, g_var_12, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13088, free: 50912, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: .................S..Sh=======h==================h=======Shh==...
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ======.h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_12, mem_info, before
+d^-^b ---> start, g_var_12, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13408, free: 50592, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: .................S..Sh=======h==================h=======Shh==...
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ======.h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_12, mem_info, after
+d^-^b ---> start, g_var_12, qstr_info, after
+qstr pool: n_pool=3, n_qstr=128, n_str_data_bytes=924, n_total_bytes=1996
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_12, qstr_info, after
+d^-^b ---> start, g_var_12, time_memory, effect
+786 128
+d^-^b <--- stop, g_var_12, time_memory, effect
+d^-^b ---> start, g_var_13, qstr_info, before
+qstr pool: n_pool=3, n_qstr=128, n_str_data_bytes=924, n_total_bytes=1996
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_13, qstr_info, before
+d^-^b ---> start, g_var_13, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13088, free: 50912, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ..............S.....Sh=======h==================h=======Sh......
+00001c00: ...hhh==......h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: ======.h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_13, mem_info, before
+d^-^b ---> start, g_var_13, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13424, free: 50576, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ..............S.....Sh=======h==================h=======Sh......
+00001c00: ...hhh==......h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_13, mem_info, after
+d^-^b ---> start, g_var_13, qstr_info, after
+qstr pool: n_pool=3, n_qstr=129, n_str_data_bytes=938, n_total_bytes=2010
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_13, qstr_info, after
+d^-^b ---> start, g_var_13, time_memory, effect
+784 144
+d^-^b <--- stop, g_var_13, time_memory, effect
+d^-^b ---> start, g_var_14, qstr_info, before
+qstr pool: n_pool=3, n_qstr=129, n_str_data_bytes=938, n_total_bytes=2010
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_14, qstr_info, before
+d^-^b ---> start, g_var_14, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13104, free: 50896, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===..
+00001800: ..................S.Sh=======h==================h=======Shh==...
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_14, mem_info, before
+d^-^b ---> start, g_var_14, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13552, free: 50448, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======............S.Sh=======h==================h=======Shh==...
+00001c00: ...hh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_14, mem_info, after
+d^-^b ---> start, g_var_14, qstr_info, after
+qstr pool: n_pool=3, n_qstr=130, n_str_data_bytes=953, n_total_bytes=2025
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_14, qstr_info, after
+d^-^b ---> start, g_var_14, time_memory, effect
+798 256
+d^-^b <--- stop, g_var_14, time_memory, effect
+d^-^b ---> start, g_var_15, qstr_info, before
+qstr pool: n_pool=3, n_qstr=130, n_str_data_bytes=953, n_total_bytes=2025
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_15, qstr_info, before
+d^-^b ---> start, g_var_15, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_15, mem_info, before
+d^-^b ---> start, g_var_15, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13552, free: 50448, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh......
+00001c00: ...hhh==S.....h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_15, mem_info, after
+d^-^b ---> start, g_var_15, qstr_info, after
+qstr pool: n_pool=3, n_qstr=131, n_str_data_bytes=969, n_total_bytes=2041
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(ag23456789abcde)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_15, qstr_info, after
+d^-^b ---> start, g_var_15, time_memory, effect
+785 128
+d^-^b <--- stop, g_var_15, time_memory, effect
+d^-^b ---> start, g_var_16, qstr_info, before
+qstr pool: n_pool=3, n_qstr=131, n_str_data_bytes=969, n_total_bytes=2041
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(ag23456789abcde)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_16, qstr_info, before
+d^-^b ---> start, g_var_16, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh.....h
+00001c00: ==Shh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_16, mem_info, before
+d^-^b ---> start, g_var_16, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13552, free: 50448, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh.....h
+00001c00: ==Shh.........h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_16, mem_info, after
+d^-^b ---> start, g_var_16, qstr_info, after
+qstr pool: n_pool=3, n_qstr=132, n_str_data_bytes=986, n_total_bytes=2058
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(ag23456789abcde)
+Q(ag23456789abcdef)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_16, qstr_info, after
+d^-^b ---> start, g_var_16, time_memory, effect
+775 128
+d^-^b <--- stop, g_var_16, time_memory, effect
+d^-^b ---> start, g_var_17, qstr_info, before
+qstr pool: n_pool=3, n_qstr=132, n_str_data_bytes=986, n_total_bytes=2058
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(ag23456789abcde)
+Q(ag23456789abcdef)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_17, qstr_info, before
+d^-^b ---> start, g_var_17, mem_info, before
+stack: 1168 out of 15360
+GC: total: 64000, used: 13232, free: 50768, max new split: 8257536
+ No. of 1-blocks: 166, 2-blocks: 32, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SM.h=L.hSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===...h=======h==========Dh=BBB.B=h=.BBBB.h=h==.........B....B=.
+00000c00: .h===h=hS................h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh..S...
+00001c00: ...hh...h==...h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_17, mem_info, before
+d^-^b ---> start, g_var_17, mem_info, after
+stack: 1168 out of 15360
+GC: total: 64000, used: 13552, free: 50448, max new split: 8257536
+ No. of 1-blocks: 178, 2-blocks: 33, max blk sz: 125, max free sz: 2357
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hhhLBh==
+00000400: ==LhLh====hSLh====SMhh=LShSSSShSh=ShSSh==h==h===============Dhh=
+00000800: ===Shhh=======h==========Dh=BBBhB=h=hBBBBhh=h==h==BS..hSB..h=B=.
+00000c00: .h===h=hSh==.............h===========B=DS...BB..Bh==Sh=hh=======
+00001000: ================================================================
+00001400: =====================================================h====h===h=
+00001800: ======..............Sh=======h==================h=======Sh..S...
+00001c00: ...hh...h==...h........hhSh=h=h==..........h==============......
+00002000: ..B..Sh===h=====h==================h=====================.....hh
+00002400: BB.B=B...h=B=..hh...h..B=B.B=B.h.........h======================
+00002800: ==============................h==========DhD............h=======
+00002c00: =======.........................hDDh=Dh=......h=Lh====..Lh====Lh
+00003000: LhLh..hS....hS...hS....hS.......hS....hS.......hS....hS.......hS
+00003400: ....hS.......hS....hS.......hS....hS.......hS....hS.......hS....
+00003800: hS.......hS....hS.......hS....hh=======S.......h=S....hS..h=====
+00003c00: =======h=S....hS.......h=Sh=....hS.......h=S...........hS.......
+00004000: .S...h=....hS...........h=SLL.h=======..h=======..........h=====
+00004400: =====...........................................h=...h=.........
+00004800: ................................................................
+00004c00: .....................................................Sh===......
+00005000: .............Sh.................................................
+00005400: h=..............................................................
+00005800: .........................................h==h==.................
+00005c00: ......................h===h================================h===h
+00006000: ==h=========h=====h===..........................................
+00006400: .......h========h===h=======h==============.....................
+       (36 lines all free)
+0000f800: ................................
+d^-^b <--- stop, g_var_17, mem_info, after
+d^-^b ---> start, g_var_17, qstr_info, after
+qstr pool: n_pool=3, n_qstr=133, n_str_data_bytes=1004, n_total_bytes=2076
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:	{})
+Q(RAM =	{} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(, )
+Q(=)
+Q(ext)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(ag)
+Q(ag2)
+Q(ag23)
+Q(ag234)
+Q(ag2345)
+Q(ag23456)
+Q(ag234567)
+Q(ag2345678)
+Q(ag23456789)
+Q(ag23456789a)
+Q(ag23456789ab)
+Q(ag23456789abc)
+Q(ag23456789abcd)
+Q(ag23456789abcde)
+Q(ag23456789abcdef)
+Q(ag23456789abcdef0)
+Q(g)
+Q(pre)
+Q(loc)
+Q(l)
+Q(var)
+Q(_var_)
+Q(base)
+Q(a)
+Q(expr)
+Q( = 1)
+Q(_const_)
+Q(A)
+Q(under)
+Q(_under_)
+Q(length)
+Q(command)
+Q(scope)
+Q(v_type)
+Q(results)
+Q(sc)
+Q(vt)
+Q(empty)
+Q(pass)
+Q(
+name:
+)
+Q(command:
+)
+Q(el)
+Q(measure.py)
+Q(dup)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(var_names)
+Q(heap_map)
+Q(glob)
+d^-^b <--- stop, g_var_17, qstr_info, after
+d^-^b ---> start, g_var_17, time_memory, effect
+783 128
+d^-^b <--- stop, g_var_17, time_memory, effect
+
+Element:        Time_us:  T_diff:     Mem:  M_diff:
+g_var_empty:        576,       0,     112,       0
+g_var_2:            793,     217,     128,      16
+g_var_3:            773,     197,     128,      16
+g_var_4:            772,     196,     128,      16
+g_var_5:            816,     240,     176,      64
+g_var_6:            771,     195,     128,      16
+g_var_7:            776,     200,     144,      32
+g_var_8:            787,     211,     144,      32
+g_var_9:            777,     201,     128,      16
+g_var_10:           781,     205,     144,      32
+g_var_11:           836,     260,     208,      96
+g_var_12:           786,     210,     128,      16
+g_var_13:           784,     208,     144,      32
+g_var_14:           798,     222,     256,     144
+g_var_15:           785,     209,     128,      16
+g_var_16:           775,     199,     128,      16
+g_var_17:           783,     207,     128,      16

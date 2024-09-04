@@ -1,3 +1,4 @@
+import frame_naming as fr
 
 def qstr_val(s:str) -> tuple[list[int], set[str]]:
     # s = b.decode() # to string
@@ -45,8 +46,9 @@ def mem_val(s:str):
     # 00003400: ...................................................h............
 
     structure = []
+    start_from = ""
     if mem_map: # mem_info(True) not mem_info()
-        start = mem_map[0].split(" ")[-1].replace(":", "")
+        start_from = mem_map[0].split(" ")[-1].replace(":", "")
         # address = []
         
         empty_line = "." * 64
@@ -61,5 +63,148 @@ def mem_val(s:str):
                     # address.append()
                     structure.append(empty_line)
 
-    return values, start, structure # , address # addres can be calculated from index
+    return values, start_from, structure # , address # addres can be calculated from index
 
+
+def t_m_val(s:str) -> list[int]:
+    # Element:        Time_us:     Mem:
+    # name:               773,     128
+    # l = s.split()
+    return [int(e) for e in s.split()] # extract values and convert to int
+
+
+def head_diff(h_after, h_before, fun_type):
+    # check if in right places
+    head = []
+    if h_before[0] == h_after[0]:
+        head.append(h_before[0])
+    else:
+        print("not the same item compared!!!")
+
+    if h_before[1] == h_after[1] == fun_type:
+        head.append(h_before[1])
+    else:
+        print("not the same test type compared!!!")
+
+    if (h_before[2] == fr.fr_before) and (h_after[2] == fr.fr_after):
+        head.append(fr.fr_effect)
+    else:
+        print("wrong order!!!")
+    
+    return head
+
+
+def val_diff(val_after, val_before):
+    # int values difference
+    values = []
+    if len(val_after) == len(val_before):
+        for i in range(len(val_before)):
+            values.append(val_after[i] - val_before[i])
+    else:
+        print("different number of variables")
+
+    return values
+
+
+def qstr_diff(after, before):
+    head = head_diff(after[0], before[0], fr.fr_qstr)
+
+    values = val_diff(after[1][0], before[1][0])
+    
+    # sets difference
+    variables_names = after[1][1] - before[1][1]
+
+    data = [values, variables_names]
+
+    # return difference
+    effect = [head, data]
+    return effect
+
+
+def mem_line_diff(after:str, before:str) -> tuple[str, str]:
+    diff = ""
+    overwritten = ""
+    changed = False
+    for i in range (len(after)):
+        if after[i] == before[i]: # the same
+            diff += '_'
+            overwritten += '_'
+        else:
+            diff += after[i] # save difference
+
+            if before[i] != '.': # if wasn't empty
+                changed = True
+                overwritten += before[i]
+            else:
+                overwritten += '-'
+    
+    if not changed:
+        overwritten = ""
+
+    
+    return diff, overwritten
+
+def line_number_to_string(line_number:int) -> str:
+    return (line_number*1024).to_bytes(4, byteorder='big').hex()
+
+def mem_diff(after, before, show_diff=False):
+    head = head_diff(after[0], before[0], fr.fr_mem)
+
+    values = val_diff(after[1][0], before[1][0])
+
+    # check memory layout from
+    if before[1][1] != after[1][1]:
+        memoy_layout_from = "Error"
+        print("differen memory start address!")
+    else:
+        memoy_layout_from = before[1][1]
+
+    map_before = before[1][2]
+    map_after = after[1][2]
+
+    # always whole memory is mapped so lines number is equal
+    additional_lines = [] # if one map has more lines
+    if len(map_after) > len(map_before):
+        additional_lines = after[1][1] [ len(map_before) : ]
+    elif len(map_after) < len(map_before):
+        additional_lines = map_before [ len(map_after) : ]
+
+    # find different memory lines
+    mem_map = []
+    line_number = []
+    mem_map_before = []
+    for i in range(min(len(map_after), len(map_before))):
+        if map_after[i] != map_before[i]:
+            mem_map.append(map_after[i])
+            line_number.append(i)
+            mem_map_before.append(map_before[i])
+
+
+    if additional_lines: # always whole memory is mapped so lines number is equal
+        mem_map += additional_lines
+
+    # --- printing difference ---
+    if show_diff:
+        print()
+        for i, element in enumerate(mem_map_before):
+            line = (line_number_to_string(line_number[i]))
+            # print(element)
+            # print(mem_map[i])
+            difference, overwritten = mem_line_diff(mem_map[i], element)
+            print("{}:".format(line), difference)
+            if overwritten:
+                print("---||---:", overwritten)
+
+
+        if additional_lines: # always whole memory is mapped so lines number is equal
+            print("additional lines:")
+            for i, element in enumerate(additional_lines):
+                line = (line_number_to_string(i + min(len(map_after), len(map_before))))
+                print("{}:".format(line), element)
+    # --- printing difference end ---
+
+    data = [values, memoy_layout_from, line_number, mem_map, mem_map_before]
+
+    # return difference
+    effect = [head, data]
+    return effect

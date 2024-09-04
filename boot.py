@@ -20,3 +20,15 @@ def reload(mod): # reload module
     mod_name = mod.__name__
     del modules[mod_name]
     return __import__(mod_name)
+
+# Not working on boot or in main.py
+# def del_len():
+#     try:
+#         del(len)
+#         print("len deleted")
+#     except:
+#         print("len not exists")
+
+# del_len()
+
+exec(open("del_len.py").read())

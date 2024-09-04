@@ -1,0 +1,267 @@
+d^-^b ---> start, test, qstr_info, before
+qstr pool: n_pool=3, n_qstr=95, n_str_data_bytes=721, n_total_bytes=1793
+Q(var_names)
+Q(heap_map)
+Q(command)
+Q(ext)
+Q(length)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(el)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:       {})
+Q(RAM = {} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(l)
+Q(, )
+Q(=)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(a = 10)
+Q(measure.py)
+Q(dup)
+d^-^b <--- stop, test, qstr_info, before
+d^-^b ---> start, test, mem_info, before
+stack: 944 out of 15360
+GC: total: 64000, used: 8032, free: 55968, max new split: 8257536
+ No. of 1-blocks: 84, 2-blocks: 23, max blk sz: 37, max free sz: 2505
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hh======
+00000400: ====hBS.LSh..Lh.SSMh=h=SShShSh=ShSSh==h==h=hh===============Dh..
+00000800: Lh..Lhh=======h==========h==h==..........h=Sh===========Dh=BBB.B
+00000c00: =h=....hSBBBBB.....hh====S.h=h==================B=..h===........
+00001000: ..............B=...DBB..h=======Bh==h====h===========h===.......
+00001400: ........................hh..hh........h=..hh..h=.h..h==.........
+00001800: .........h=======.....B.........................................
+00001c00: ...............BB.B=B..B=.....B=.B=BLhLh.........h==============
+00002000: h==========.....................................................
+00002400: ..h=======......................................................
+00002800: ................................................................
+00002c00: .........................h====================================..
+00003000: ...............h=======....................h=======.............
+00003400: ...........h=...................................................
+00003800: ................................................................
+00003c00: ............................h=...h=.............................
+00004000: ................................................................
+00004400: .................................Sh===...................Sh.....
+00004800: ............................................h=..................
+00004c00: ................................................................
+00005000: .....................h==h==.....................................
+00005400: ..h===h================================h===h==h=========h=====h=
+00005800: ==.................................................h========h===
+00005c00: h=======h==============.........................................
+       (38 lines all free)
+0000f800: ................................
+d^-^b <--- stop, test, mem_info, before
+d^-^b ---> start, test, mem_info, after
+stack: 944 out of 15360
+GC: total: 64000, used: 8288, free: 55712, max new split: 8257536
+ No. of 1-blocks: 92, 2-blocks: 24, max blk sz: 37, max free sz: 2505
+GC memory layout; from 3c170f00:
+00000000: MDhLhhhMMDBDShhh=hhh=================hh=======h=======h=hh======
+00000400: ====hBSSLShhhLhhSSMh=h=SShShSh=ShSSh==h==h=hh===============Dhhh
+00000800: LhBSLhh=======h==========h==h==h==h==..h=h=Sh===========Dh=BBB.B
+00000c00: =h=....hSBBBBB.....hh====S.h=h==================B=..h===........
+00001000: ..............B=...DBB..h=======Bh==h====h===========h===.......
+00001400: ........................hh..hh........h=..hh..h=.h..h==.........
+00001800: .........h=======.....B.........................................
+00001c00: ...............BB.B=B..B=.....B=.B=BLhLh.........h==============
+00002000: h==========.....................................................
+00002400: ..h=======......................................................
+00002800: ................................................................
+00002c00: .........................h====================================..
+00003000: ...............h=======....................h=======.............
+00003400: ...........h=...................................................
+00003800: ................................................................
+00003c00: ............................h=...h=.............................
+00004000: ................................................................
+00004400: .................................Sh===...................Sh.....
+00004800: ............................................h=..................
+00004c00: ................................................................
+00005000: .....................h==h==.....................................
+00005400: ..h===h================================h===h==h=========h=====h=
+00005800: ==.................................................h========h===
+00005c00: h=======h==============.........................................
+       (38 lines all free)
+0000f800: ................................
+d^-^b <--- stop, test, mem_info, after
+d^-^b ---> start, test, qstr_info, after
+qstr pool: n_pool=3, n_qstr=96, n_str_data_bytes=723, n_total_bytes=1795
+Q(var_names)
+Q(heap_map)
+Q(command)
+Q(ext)
+Q(length)
+Q(time_start)
+Q(time_end)
+Q(mem_start)
+Q(mem_end)
+Q(fr_sign)
+Q(d^-^b)
+Q(fr_start)
+Q(---> start)
+Q(fr_stop)
+Q(<--- stop)
+Q(fr_qstr)
+Q(fr_mem)
+Q(fr_t_m)
+Q(fr_before)
+Q(before)
+Q(fr_after)
+Q(after)
+Q(fr_effect)
+Q(effect)
+Q(el)
+Q(s_read)
+Q(slj)
+Q(variable)
+Q(sign)
+Q(srj)
+Q(t_empty)
+Q(m_empty)
+Q(m)
+Q(dup.py)
+Q(dupa)
+Q(a)
+Q(DUP)
+Q(timed_function)
+Q(kwargs)
+Q(myname)
+Q(new_func)
+Q(t0)
+Q(t1)
+Q(delta)
+Q(avilable_space)
+Q(//)
+Q({0} MB)
+Q(avilable_ram)
+Q(short)
+Q(free)
+Q(allocated)
+Q(total)
+Q(percentage)
+Q({0:.2f}%)
+Q(time_mem_result)
+Q(func)
+Q(ram)
+Q(space)
+Q(time_mem)
+Q(file_space)
+Q(t_delta)
+Q(ram_delta)
+Q(file_space_delta)
+Q(t_m)
+Q(Ram = {}b)
+Q(print_result)
+Q(F name:       {})
+Q(RAM = {} b)
+Q(qstr_read)
+Q(full)
+Q(ba)
+Q(qstr_val)
+Q(b)
+Q(l)
+Q(, )
+Q(=)
+Q(led)
+Q(btn)
+Q(reload)
+Q(mod)
+Q(mod_name)
+Q(del_len.py)
+Q(main.py)
+Q(uos)
+Q(mem_free:)
+Q(uname:)
+Q(unique_id:)
+Q(fsinfo:)
+Q(infile)
+Q(result)
+Q(execute)
+Q(execute_print)
+Q(test)
+Q(a = 10)
+Q(measure.py)
+Q(dup)
+d^-^b <--- stop, test, qstr_info, after
+d^-^b ---> start, test, time_memory, effect
+776 128
+d^-^b <--- stop, test, time_memory, effect
+
+Element:        Time_us:  T_diff:     Mem:  M_diff:   
+test:               776,       0,     128,       0

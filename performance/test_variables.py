@@ -15,12 +15,12 @@ def test():
     exec(open("del_len.py").read()) # possibly check if running on restarted device
 
     path = "" # "performance/var_const/" # directory
-    var_names = False
-    heap_map = False
+    var_names = True
+    heap_map = True
 
     # global / local variables
-    glob = dict(name = "g", pre = "")
-    loc = dict(name = "l", pre = "def test():\n\t")
+    glob = dict(name = "g", pre = "", post = "")
+    loc = dict(name = "l", pre = "def test():\n\t", post = "" )#, post = "\ntest()")
 
     # variables / constants / constants with '_'
     var   = dict(name = "_var_"  , base = "a", expr = " = 1")
@@ -28,15 +28,18 @@ def test():
     under = dict(name = "_under_", base = "_", expr = " = const(1)")
 
     # generating different variable names length mask
-    s = "xx23456789abcdef0"
+    # s = "xx23456789abcdef0123456789abcdef0"
+    s = "xx234"
     length = len(s)
 
     name = [""]*length
     command = [""]*length
 
 
-    scope = [glob, loc]
-    v_type = [var, const, under]
+    # scope = [glob, loc]
+    scope = [loc]
+    # v_type = [var, const, under]
+    v_type = [var]
 
     results = []
 
@@ -49,7 +52,7 @@ def test():
 
             for i in range(1, length):  # variable name length
                 name[i] = sc["name"] + vt["name"] + str(i+1)
-                command[i] = sc["pre"] + vt["base"] + sc["name"] + s[2:i+1] + vt["expr"]
+                command[i] = sc["pre"] + vt["base"] + sc["name"] + s[2:i+1] + vt["expr"] + sc["post"]
 
             print("\nname:\n", name)
             print("command:\n", command)
